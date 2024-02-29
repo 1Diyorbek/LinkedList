@@ -68,11 +68,11 @@ if __name__ == "__main__":
     ll.head = a
     ll.print_ll()
 
-    # # Boshiga element qo'shish
-    # print("\nBoshiga element qo'shish\n")
-    # new_el = int(input("new elelemnt: "))
-    # print(ll.push_ll(new_el))
-    # ll.print_ll()
+    # Boshiga element qo'shish
+    print("\nBoshiga element qo'shish\n")
+    new_el = int(input("new elelemnt: "))
+    print(ll.push_ll(new_el))
+    ll.print_ll()
 
     # Istalgan elementdan keyinga qo'shish
     print("\nIstalgan elementdan keyin element qo'shish\n")
@@ -81,11 +81,11 @@ if __name__ == "__main__":
     print("\n", ll.insert_ll(prev_el, new_el), "\n")
     ll.print_ll()
 
-    # # Oxiriga element(tugun) qo'shish
-    # print("\nOxiriga element qo'shish\n")
-    # new_el = int(input("new element: "))
-    # print("\n", ll.append(new_el))
-    # ll.print_ll()
+    # Oxiriga element(tugun) qo'shish
+    print("\nOxiriga element qo'shish\n")
+    new_el = int(input("new element: "))
+    print("\n", ll.append(new_el))
+    ll.print_ll()
 
     """Test qilindi:
         1) x = 2, y = 8, a = 10, b = 0, c = 1
